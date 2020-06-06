@@ -4,9 +4,9 @@ Just a little guide on communicating with a remote server from the front-end.
 ## What does fetch() do?
 Fetch communicates with a remote server in order to make HTTP requests. It can make all of the HTTP requests we are familiar with: `GET`, `POST`, `PATCH`, `DELETE`, and `PUT` (though we don't really use `PUT`).
 
-By itself, fetch() does nothing to the DOM. It just communicates with a server and recevies a response. By default, it makes GET requests.
+By itself, fetch() does nothing to the DOM. It just communicates with a server and receives a response. By default, it makes GET requests.
 
-If the URL provided to fetch() is valid and the server accepts the request, the request will be routed to the appropriate controller. The method specified in the options will determine which controller action is triggered (index, show, create, update, or destroy). The server will then send the response back to the client making the request (browser), usually as JSON.
+If the URL provided to fetch() is valid and the server accepts the request, the request will be routed to the appropriate controller. The path, and method specified in the options will determine which controller action is triggered (index, show, create, update, or destroy). The server will then send the response back to the client making the request (browser), usually as JSON.
 
 ## What does fetch() return?
 It returns a Promise.
