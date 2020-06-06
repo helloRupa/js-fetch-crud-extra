@@ -1,0 +1,19 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Pineapple Conspiracies",
+      "text": "Some people like pineapple on their pizza. They call themselves Pineappleans."
+    },
+    {
+      "id": 2,
+      "title": "Go for a W",
+      "text": "Don't say the word walk in front of the doge."
+    },
+    {
+      "id": 3, 
+      "title": "Hershey's Chocolate: They're Tricking You Into Eating It",
+      "text": "Hershey's is a food-like substance. Everything about it is wrong."
+    }
+  ]
+}

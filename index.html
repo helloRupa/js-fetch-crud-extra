@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fetch CRUD, not CURD</title>
+  <!-- DO NOT run both JS files, you'll get errors and confusion -->
+  <!-- Uncomment the script to run the JS -->
+  <!-- <script src="just_fetch.js"></script> --> <!-- No need to defer, doesn't rely on DOM -->
+  <script defer src="index.js"></script><!-- Relies on DOM, so we'll defer -->
+</head>
+<body>
+  <header>
+    <h1>Do Some Fetch Business and Stuff with DOM</h1>
+  </header>
+
+  <section>
+    <form id="posting">
+      <input type="text" id="title" placeholder="Title">
+      <input type="text" id="text" placeholder="Text">
+
+      <input type="submit" value="Submit Post">
+    </form>
+  </section>
+
+  <section class="posts">
+
+  </section>
+</body>
+</html>
